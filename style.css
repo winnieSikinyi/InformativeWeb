@@ -238,6 +238,24 @@ text-align: center;
     margin-top: 10%;
   }
   
-  
+  #brijo{
+    width: 18vw;
+    height:30vh;
+    border-radius: 100%;
+    display: flex;
+    padding: 20px;
+    /* margin-left: 16%; */
+    gap: 30%;
+    
+ 
+ }
+   .rev{
+     display: flex;
+     padding: 20px;
+    /* margin-left: 16%; */
+    gap: 5%;
+   }
+ 
+   
   
 
