@@ -206,4 +206,38 @@ text-align: center;
     
   }
   
+  #brijo{
+    width: 15%;
+    border-radius: 100%;
+  }
+  /* body{
+   color: #20784D; */
   
+  #mbog{
+    border-radius: 100%;
+    width: 15%;
+  }
+  .main{
+    display: flex;
+    gap: 22%;
+    margin-top: 5%;
+  }
+  .image{
+    display: flex;
+    gap: 15%;
+   
+  }
+  .rev{
+    display: flex;
+    gap: 15%;
+  }
+  .reviews{
+    text-align: center;
+    font-size: 60px;
+    color:#20784D; ;
+    margin-top: 10%;
+  }
+  
+  
+  
+
