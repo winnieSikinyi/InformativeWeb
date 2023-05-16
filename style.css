@@ -1,0 +1,464 @@
+.homepage{
+    background-image: url(/images/grocegroce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y:hidden ;
+    height: 96vh;
+     }
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 130px;
+    color:  #20784D;
+    font-size: x-large;
+} 
+
+.welcome{
+   text-align: center;
+   font-size: x-large;
+   color:#087f5b ;
+
+
+}
+.logos{
+    width: 10%;
+    height: 50px;
+    
+}
+/* .about{
+    background-color:white;
+}
+.veges{
+    width: 130%;
+    height: 400px;
+    border: none;
+border-radius: 70px 10px;
+   
+}
+.ourmission{
+    display: flex;
+
+} */
+/* .mission{
+    margin-left: 20%;
+    
+
+}
+.our{
+    color:#4cc7a4;
+font-family: 'Quicksand', sans-serif;
+font-weight: bolder;
+}
+.missionp{
+color:#021b14;
+font-family: 'Quicksand', sans-serif;
+font-weight: bolder;
+font-size:medium;
+
+}
+.fresh{
+    color:#4cc7a4;
+    font-family: 'Quicksand', sans-serif;
+font-weight: bolder;
+font-size: x-large;
+
+}
+
+.vision{ */
+  /* display: flex;  
+  margin-top:5%;
+}
+.missionv{
+    color:#4cc7a4;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size:x-large;  
+}
+.ourv{
+    color:#4cc7a4;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder; 
+}
+.fruit{
+    border: none;
+    width: 130%;
+    height: 400px;
+    border: none;
+border-radius: 10px 70px;
+margin-left: 55%;
+}
+.story{
+    color: #021b14;
+    margin-top: 5%;
+} */
+/* .ourstory{
+text-align: center;
+}
+.story{
+    color: #4cc7a4;
+    margin-top: 5%;
+    text-align: center;
+ 
+}
+
+.logo{
+    width: 10%;
+    height: 15%00px;
+} */
+.app{
+  width: 100%;
+  height: 400px;
+  margin-top: 5%;
+}
+/* .download{
+  margin-top:5%;
+  margin-left: 40px;
+  color: #20784D;
+} */
+.download1{
+  margin-top:15%;
+  margin-left: 40px;
+}
+.here{
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #20784D;
+  padding: 20px 40px;
+  margin-left: 40px;
+  margin-top: 5%;
+}
+
+.product{
+  color: #20784D;
+  text-align: center;
+  margin-top: 5%;
+}
+.ourproduct{
+  display: flex;
+}
+
+ /*---features---*/
+ #features{
+    padding-top:70px ;
+    padding-bottom:50px ;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .feature-row{
+    width:80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+  }
+  .feature-col{
+    flex-basis: 25%;
+    text-align: center;
+  }
+  .feature-col img{
+    width: 100px;
+  
+  }
+  .feature-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .feature-btn{
+    margin: 80px auto 0;
+    display:flex ;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .feature-btn.line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+  }
+  .feat-text{
+    display: flex;
+    justify-content: center;
+  }
+  .feature-text{
+  font-size: 20px;
+  }
+  
+  
+  
+  /*---category---*/
+  #category{
+    padding:40px;
+  }
+  .cat-text{
+    display: flex;
+    justify-content: center;
+  }
+  .category-text button{
+    margin: 30px 0;
+  
+    
+  }
+  
+  .categories1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .categories{
+    display: flex;
+  }
+  .card{
+    height: 350px;
+    margin: 50px;
+    overflow: hidden;
+  }
+  .cat{
+    height: 130px;
+    width: 320px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+  
+  }
+  .cat-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .common-btn{
+    height: 10vh;
+    width: 20vw;
+    background: #20784D;
+    outline: none;
+    border: none;
+    color: #fff;
+    
+  }
+  
+  #brijo{
+    width: 15%;
+    border-radius: 100%;
+  }
+  /* body{
+   color: #20784D; */
+  
+  #mbog{
+    border-radius: 100%;
+    width: 15%;
+  }
+  .main{
+    display: flex;
+    gap: 22%;
+    margin-top: 5%;
+  }
+  .image{
+    display: flex;
+    gap: 15%;
+   
+  }
+  .rev{
+    display: flex;
+    gap: 15%;
+  }
+  .reviews{
+    text-align: center;
+    font-size: 60px;
+    color:#20784D; ;
+    margin-top: 10%;
+  }
+  
+  #brijo{
+    width: 18vw;
+    height:30vh;
+    border-radius: 100%;
+    display: flex;
+    padding: 20px;
+    /* margin-left: 16%; */
+    gap: 30%;
+    
+ 
+ }
+   .rev{
+     display: flex;
+     padding: 20px;
+    /* margin-left: 16%; */
+    gap: 5%;
+   }
+   .footer{
+    padding:10px;
+    background-color: rgb(11, 56, 5);
+    color: #fff;
+    display: flexbox;
+}
+.row{
+    display: flex;
+}
+.footer{
+  /* height: 100vh;
+  max-height: 150px; */
+  display: flex;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col2{
+  display: flex;
+  gap: 25%;
+  padding-left: 30px;
+  background-color:  rgb(11, 56, 5);
+  color: white;
+
+
+}
+.foni{
+  padding-left: 10px;
+
+}
+.logo{
+  width: 50%;
+  height: 60px;
+}
+.foot{
+  padding: 40px;
+  /* display: flex; */
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .homepage {
+    background-image: none;
+    height: auto;
+    padding: 30px;
+  }
+  ul {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+  }
+  .logos,
+  .logo {
+    width: 20%;
+  }
+  .welcome {
+    font-size: 16px;
+  }
+  .veges,
+  .fruit {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-left: 0;
+  }
+  .ourmission {
+    flex-direction: column;
+  }
+  .mission {
+    margin-left: 0;
+  }
+  .missionp {
+    font-size: 12px;
+  }
+  .fresh {
+    font-size: 16px;
+  }
+  .vision {
+    flex-direction: column;
+  }
+  .missionv {
+    font-size: 16px;
+  }
+  .ourv {
+    font-size: 16px;
+  }
+  .story,
+  .ourstory {
+    font-size: 16px;
+  }
+  .rev,
+  .image {
+    flex-direction: column;
+    gap: 10%;
+    
+  }
+  .main{
+    flex-direction: column;
+  }
+  .reviews {
+    font-size: 40px;
+    margin-top: 5%;
+    
+  }
+  #brijo,
+  #mbog {
+    width: 30vw;
+    height: auto;
+    border-radius: 0;
+    padding: 10px;
+    margin-left: 0;
+    gap: 10%;
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-col {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-col2 {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+  }
+  .foot {
+    padding: 20px;
+  }
+  .category-text button,
+  .common-btn {
+    width: 100%;
+  }
+  .card {
+    margin: 30px 0;
+  }
+  .cat {
+    position: static;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+  }
+    
+    .feature-row {
+    flex-direction: column;
+    width: 100%;
+    }
+    .feature-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    }
+    .feature-btn {
+    margin: 50px auto 0;
+    }
+    .categories {
+    flex-direction: column;
+    }
+    .card {
+    height: 300px;
+    margin: 30px;
+    }
+   
+
+  
+  
+  
+  
+}
+   
+  
+
