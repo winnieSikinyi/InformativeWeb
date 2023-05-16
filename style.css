@@ -255,7 +255,178 @@ text-align: center;
     /* margin-left: 16%; */
     gap: 5%;
    }
- 
+   .footer{
+    padding:10px;
+    background-color: rgb(11, 56, 5);
+    color: #fff;
+    display: flexbox;
+}
+.row{
+    display: flex;
+}
+.footer{
+  /* height: 100vh;
+  max-height: 150px; */
+  display: flex;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col2{
+  display: flex;
+  gap: 25%;
+  padding-left: 30px;
+  background-color:  rgb(11, 56, 5);
+  color: white;
+
+
+}
+.foni{
+  padding-left: 10px;
+
+}
+.logo{
+  width: 50%;
+  height: 60px;
+}
+.foot{
+  padding: 40px;
+  /* display: flex; */
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .homepage {
+    background-image: none;
+    height: auto;
+    padding: 30px;
+  }
+  ul {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+  }
+  .logos,
+  .logo {
+    width: 20%;
+  }
+  .welcome {
+    font-size: 16px;
+  }
+  .veges,
+  .fruit {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-left: 0;
+  }
+  .ourmission {
+    flex-direction: column;
+  }
+  .mission {
+    margin-left: 0;
+  }
+  .missionp {
+    font-size: 12px;
+  }
+  .fresh {
+    font-size: 16px;
+  }
+  .vision {
+    flex-direction: column;
+  }
+  .missionv {
+    font-size: 16px;
+  }
+  .ourv {
+    font-size: 16px;
+  }
+  .story,
+  .ourstory {
+    font-size: 16px;
+  }
+  .rev,
+  .image {
+    flex-direction: column;
+    gap: 10%;
+    
+  }
+  .main{
+    flex-direction: column;
+  }
+  .reviews {
+    font-size: 40px;
+    margin-top: 5%;
+    
+  }
+  #brijo,
+  #mbog {
+    width: 30vw;
+    height: auto;
+    border-radius: 0;
+    padding: 10px;
+    margin-left: 0;
+    gap: 10%;
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-col {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-col2 {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+  }
+  .foot {
+    padding: 20px;
+  }
+  .category-text button,
+  .common-btn {
+    width: 100%;
+  }
+  .card {
+    margin: 30px 0;
+  }
+  .cat {
+    position: static;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+  }
+    
+    .feature-row {
+    flex-direction: column;
+    width: 100%;
+    }
+    .feature-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    }
+    .feature-btn {
+    margin: 50px auto 0;
+    }
+    .categories {
+    flex-direction: column;
+    }
+    .card {
+    height: 300px;
+    margin: 30px;
+    }
+   
+
+  
+  
+  
+  
+}
    
   
 
