@@ -105,3 +105,105 @@ text-align: center;
     width: 10%;
     height: 100px;
 }
+
+ /*---features---*/
+ #features{
+    padding-top:50px ;
+    padding-bottom:50px ;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .feature-row{
+    width:80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+  }
+  .feature-col{
+    flex-basis: 25%;
+    text-align: center;
+  }
+  .feature-col img{
+    width: 100px;
+  
+  }
+  .feature-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .feature-btn{
+    margin: 80px auto 0;
+    display:flex ;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .feature-btn.line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+  }
+  .feat-text{
+    display: flex;
+    justify-content: center;
+  }
+  .feature-text{
+  font-size: 20px;
+  }
+  
+  
+  
+  /*---category---*/
+  #category{
+    padding:40px;
+  }
+  .cat-text{
+    display: flex;
+    justify-content: center;
+  }
+  .category-text button{
+    margin: 30px 0;
+  
+    
+  }
+  
+  .categories1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .categories{
+    display: flex;
+  }
+  .card{
+    height: 350px;
+    margin: 50px;
+    overflow: hidden;
+  }
+  .cat{
+    height: 130px;
+    width: 320px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+  
+  }
+  .cat-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .common-btn{
+    height: 10vh;
+    width: 20vw;
+    background: #20784D;
+    outline: none;
+    border: none;
+    color: #fff;
+    
+  }
+  
+  
