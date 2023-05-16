@@ -25,7 +25,7 @@
     height: 50px;
     
 }
-.about{
+/* .about{
     background-color:white;
 }
 .veges{
@@ -38,8 +38,8 @@ border-radius: 70px 10px;
 .ourmission{
     display: flex;
 
-}
-.mission{
+} */
+/* .mission{
     margin-left: 20%;
     
 
@@ -64,8 +64,8 @@ font-size: x-large;
 
 }
 
-.vision{
-  display: flex;  
+.vision{ */
+  /* display: flex;  
   margin-top:5%;
 }
 .missionv{
@@ -90,8 +90,8 @@ margin-left: 55%;
 .story{
     color: #021b14;
     margin-top: 5%;
-}
-.ourstory{
+} */
+/* .ourstory{
 text-align: center;
 }
 .story{
@@ -103,12 +103,44 @@ text-align: center;
 
 .logo{
     width: 10%;
-    height: 100px;
+    height: 15%00px;
+} */
+.app{
+  width: 100%;
+  height: 400px;
+  margin-top: 5%;
+}
+/* .download{
+  margin-top:5%;
+  margin-left: 40px;
+  color: #20784D;
+} */
+.download1{
+  margin-top:15%;
+  margin-left: 40px;
+}
+.here{
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #20784D;
+  padding: 20px 40px;
+  margin-left: 40px;
+  margin-top: 5%;
+}
+
+.product{
+  color: #20784D;
+  text-align: center;
+  margin-top: 5%;
+}
+.ourproduct{
+  display: flex;
 }
 
  /*---features---*/
  #features{
-    padding-top:50px ;
+    padding-top:70px ;
     padding-bottom:50px ;
   }
   h4{
