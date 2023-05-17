@@ -249,6 +249,11 @@ text-align: center;
     border-radius: 100%;
     width: 15%;
   }
+  .imag{
+    display: flex;
+    border-radius: 100%;
+    gap: 5%;
+  }
   .main{
     display: flex;
     gap: 22%;
@@ -269,16 +274,17 @@ text-align: center;
     color:#20784D; ;
     margin-top: 10%;
   }
-  
-  #brijo{
-    width: 18vw;
-    height:30vh;
+   
+   #brijo{
+    /* width: 18vw; */
+    /* height:30vh; */
+    width: 40%;
     border-radius: 100%;
     display: flex;
     padding: 20px;
     /* margin-left: 16%; */
-    gap: 30%;
-    
+    gap: 30%; */
+     */
  
  }
    .rev{
